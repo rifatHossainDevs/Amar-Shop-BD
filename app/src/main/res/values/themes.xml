@@ -1,0 +1,12 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.AmaarShopBD" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+    <style name="Theme.AmaarShopBD.MainActivity" parent="Base.Theme.AmaarShopBD">
+        <item name="android:statusBarColor">#02786C</item> <!-- Status bar background -->
+        <item name="android:windowLightStatusBar">false</item> <!-- Dark text -->
+    </style>
+    <style name="Theme.AmaarShopBD" parent="Base.Theme.AmaarShopBD" />
+</resources>
